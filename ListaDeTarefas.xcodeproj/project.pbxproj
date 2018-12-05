@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		508C56C021B6059C0029C2D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C56BF21B6059C0029C2D1 /* AppDelegate.swift */; };
-		508C56C221B6059C0029C2D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C56C121B6059C0029C2D1 /* ViewController.swift */; };
 		508C56C521B6059C0029C2D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508C56C321B6059C0029C2D1 /* Main.storyboard */; };
 		508C56C721B6059F0029C2D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508C56C621B6059F0029C2D1 /* Assets.xcassets */; };
 		508C56CA21B6059F0029C2D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508C56C821B6059F0029C2D1 /* LaunchScreen.storyboard */; };
+		508C56D221B60F620029C2D1 /* TarefasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C56D121B60F610029C2D1 /* TarefasTableViewController.swift */; };
+		508C56D421B60FF60029C2D1 /* CadastroTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C56D321B60FF60029C2D1 /* CadastroTarefaViewController.swift */; };
+		508C56D621B6110C0029C2D1 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C56D521B6110C0029C2D1 /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		508C56BC21B6059C0029C2D1 /* ListaDeTarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListaDeTarefas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		508C56BF21B6059C0029C2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		508C56C121B6059C0029C2D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		508C56C421B6059C0029C2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		508C56C621B6059F0029C2D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		508C56C921B6059F0029C2D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		508C56CB21B6059F0029C2D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		508C56D121B60F610029C2D1 /* TarefasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasTableViewController.swift; sourceTree = "<group>"; };
+		508C56D321B60FF60029C2D1 /* CadastroTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTarefaViewController.swift; sourceTree = "<group>"; };
+		508C56D521B6110C0029C2D1 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				508C56BF21B6059C0029C2D1 /* AppDelegate.swift */,
-				508C56C121B6059C0029C2D1 /* ViewController.swift */,
 				508C56C321B6059C0029C2D1 /* Main.storyboard */,
 				508C56C621B6059F0029C2D1 /* Assets.xcassets */,
 				508C56C821B6059F0029C2D1 /* LaunchScreen.storyboard */,
 				508C56CB21B6059F0029C2D1 /* Info.plist */,
+				508C56D121B60F610029C2D1 /* TarefasTableViewController.swift */,
+				508C56D321B60FF60029C2D1 /* CadastroTarefaViewController.swift */,
+				508C56D521B6110C0029C2D1 /* TarefaUserDefaults.swift */,
 			);
 			path = ListaDeTarefas;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				508C56C221B6059C0029C2D1 /* ViewController.swift in Sources */,
+				508C56D421B60FF60029C2D1 /* CadastroTarefaViewController.swift in Sources */,
+				508C56D621B6110C0029C2D1 /* TarefaUserDefaults.swift in Sources */,
+				508C56D221B60F620029C2D1 /* TarefasTableViewController.swift in Sources */,
 				508C56C021B6059C0029C2D1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
